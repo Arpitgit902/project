@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    transition: 3s ease-in-out;
+}
+
+.container:hover{
+            background-color: aquamarine;
+            width: 500px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    margin-top: 50px;
+    position: relative;
+    animation: fade-in 2s reverse;
+    margin-bottom: 60px;
+}
+
+@keyframes bounce {
+  0%{
+      transform: translateY(0);
+  } 
+  10%{
+    background-color: blueviolet;
+  }
+}
